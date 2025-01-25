@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Tech Gadgets Store</title>
     <style>
+        a{
+            text-decoration: none;
+            color:white
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -29,6 +33,7 @@
             justify-content: space-between;
             background: #444;
             padding: 1rem;
+            text-decoration: none;
         }
         .nav label {
             color: white;
@@ -116,13 +121,13 @@
     <header>
         <h1>Tech Gadgets Store</h1>
     </header>
+    
 
     <div class="nav">
         <div>
-            <label for="all">All Products</label>
-            <label for="phones">Phones</label>
-            <label for="laptops">Laptops</label>
-            <label for="accessories">Accessories</label>
+            <label for="phones"><a href="phone.html">Accessories</a></label>
+            <label for="laptops"><a href="laptop.html">Laptop</a></label>
+            <label for="accessories"><a href="acc.html">Phones</a></label>
         </div>
         <div class="cart-toggle">Cart:</div>
     </div>
@@ -141,7 +146,7 @@
             </div>
             <div class="product-card" data-category="laptops">
                 <img src="laptop.jpeg" alt="Laptop">
-                <h3>ASUS TUF gameing laptop</h3>
+                <h3>ASUS TUF gaming laptop</h3>
                 <p>High-performance laptop</p>
                 <p>₹1,02,000</p>
                 <div class="add-to-cart">
